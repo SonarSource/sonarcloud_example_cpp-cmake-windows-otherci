@@ -1,0 +1,15 @@
+os: windows
+sudo: false
+language: cpp
+
+install:
+  - PowerShell -Command 'Set-ExecutionPolicy -ExecutionPolicy RemoteSigned'
+
+script:
+  # windows requires a few extra steps
+    # Install java
+  - export JAVA_HOME=${JAVA_HOME:-/c/jdk}
+  - export PATH=${JAVA_HOME}/bin:${PATH}
+  - choco install jdk8 -params 'installdir=c:\\jdk' -y
+    # this script could be run from any CI
+  - powershell -File build.ps1 

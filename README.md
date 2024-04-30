@@ -1,3 +1,5 @@
+This example project is stale and unsupported. It has been replaced by [this](https://github.com/sonarsource-cfamily-examples) example project.
+
 # C++ example project scanned on SonarCloud using any CI
 
 [![Build status](https://travis-ci.org/SonarSource/sonarcloud_example_cpp-cmake-windows-otherci.svg?branch=master)](https://travis-ci.org/SonarSource/sonarcloud_example_cpp-cmake-windows-otherci)[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=sonarcloud_example_cpp-cmake-windows-otherci&metric=alert_status)](https://sonarcloud.io/dashboard?id=sonarcloud_example_cpp-cmake-windows-otherci)
